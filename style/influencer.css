@@ -289,6 +289,20 @@ footer{
         margin-left: 30px;
         margin-top: 100px;
     }
+    .gear-style{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .products-title{
+        width: 400px;
+        margin-left: 5px;
+    }
+    .products-title h2{
+        width: 400px;
+    }
+    .products-title p{
+        width: 400px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .influencer-title{
@@ -312,5 +326,12 @@ footer{
         gap: 40px;
         box-shadow: none;
         margin-bottom: 150px;
+    }
+    .see-more{
+        text-align: left;
+    }
+    .gear-style{
+        flex-direction: column;
+        margin-top: 50px;
     }
 }
